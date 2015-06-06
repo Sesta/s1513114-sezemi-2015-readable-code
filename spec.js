@@ -4,7 +4,7 @@ function showRecipes( recipe_id ){
   alert( makeOutputStr() ); //アラートで表示
 
   function makeOutputStr(){
-    var outputStr = ""
+    var outputStr = "";
 
     recipes.forEach( function( recipe, index ){
       outputStr += index + ": " + recipe + "\n";
