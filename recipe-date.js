@@ -1,1 +1,5 @@
-var recipeData = 'オムライス';
+var recipes = [
+          'オムライス',
+          '親子丼',
+          '杏仁豆腐'
+    ];

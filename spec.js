@@ -1,3 +1,9 @@
 /*index.htmlを開いてください*/
 
-alert( recipeData );//アラートで表示
+var ouputStr = ""
+
+recipes.forEach( function( recipe ){
+  ouputStr += recipe + "\n";
+} );
+
+alert( ouputStr );//アラートで表示
