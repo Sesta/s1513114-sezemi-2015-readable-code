@@ -1,9 +1,18 @@
 /*index.htmlを開いてください*/
 
-var ouputStr = ""
+showRecipes();
 
-recipes.forEach( function( recipe ){
-  ouputStr += recipe + "\n";
-} );
 
-alert( ouputStr );//アラートで表示
+function showRecipes(){
+  alert( makeOutputStr() ); //アラートで表示
+
+  function makeOutputStr(){
+    var outputStr = ""
+
+    recipes.forEach( function( recipe, index ){
+      outputStr += index + ": " + recipe + "\n";
+    } );
+
+    return outputStr;
+  }
+}
