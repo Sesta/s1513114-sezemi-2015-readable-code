@@ -1,2 +1,3 @@
 /*index.htmlを開いてください*/
-alert("オムライス");//アラートで表示
+
+alert( recipeData );//アラートで表示
