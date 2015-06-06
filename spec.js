@@ -1,4 +1,2 @@
-//画面読込後実行
-window.onload = function() {
-	console.log("オムライス");
-}
+/*index.htmlを開いてください*/
+alert("オムライス");//アラートで表示
